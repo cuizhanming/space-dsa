@@ -1,5 +1,5 @@
 ## `DSA` section guide
-- [DSA in Comics](/pdfs/DSAInComics.pdf))
+- [DSA in Comics](/pdfs/DSAInComics.pdf)
 - [Zero to Principal](https://www.skool.com/zero-to-principal-engineer/classroom/3d2e5477?md=c9a84042be914f868275595db7308519)
 - [The SWE (Software Engineer) Interview Prep RoadMap](https://javarevisited.substack.com/p/the-swe-software-engineer-interview)
 

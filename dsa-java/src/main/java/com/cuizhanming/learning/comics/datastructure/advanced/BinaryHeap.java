@@ -3,8 +3,8 @@ package com.cuizhanming.learning.comics.datastructure.advanced;
 import java.util.Arrays;
 
 /**
- * Binary heap is array special kind of heap, it is array complete binary tree.
- * It satisfies the heap property: the value of the parent node is always greater than/equal to (or less than/equal to) the value of any child node.
+ * Binary heap is array special kind of heap, it is a complete binary tree.
+ * It satisfies the heap property: the value of the parent node is always greater or less than/equal to (or less than/equal to) the value of any child node.
  */
 public class BinaryHeap {
 
@@ -142,7 +142,7 @@ public class BinaryHeap {
             if (childIndex+1 < length && array[childIndex+1] > array[childIndex]) {
                 childIndex++;
             }
-            // if parent node is bigger than child node, break
+            // if parent node is bigger than child node, break and go to next node
             if (temp >= array[childIndex]) {
                 break;
             }
@@ -163,7 +163,7 @@ public class BinaryHeap {
         System.out.println(Arrays.toString(array)); // [6, 9, 7, 85, 95, 105, 8, 100, 10, 0]
 
         buildMaxHeap(array);
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array)); // [105, 100, 8, 85, 95, 7, 6, 9, 10, 0]
 
     }
 }
