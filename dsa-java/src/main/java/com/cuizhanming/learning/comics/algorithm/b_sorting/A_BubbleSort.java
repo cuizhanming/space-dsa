@@ -1,6 +1,6 @@
 package com.cuizhanming.learning.comics.algorithm.b_sorting;
 
-public class BubbleSort {
+public class A_BubbleSort {
 
     /**
      * 冒泡排序

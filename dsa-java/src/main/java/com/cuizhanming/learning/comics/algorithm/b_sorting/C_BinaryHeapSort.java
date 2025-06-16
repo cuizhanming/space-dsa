@@ -4,7 +4,7 @@ import com.cuizhanming.learning.comics.datastructure.advanced.BinaryHeap;
 
 import java.util.Arrays;
 
-class BinaryHeapSort {
+class C_BinaryHeapSort {
 
     public static void heapSort(int[] array) {
         BinaryHeap.buildMaxHeap(array);
